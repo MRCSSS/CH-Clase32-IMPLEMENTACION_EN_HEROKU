@@ -6,6 +6,7 @@ dotenv.config();
 
 /* ------------------- OBJETO CONFIGURADOR DE DB -------------------- */
 const config = {
+    port: process.env.PORT,
     env: process.env.NODE_ENV,
     secretKey: process.env.SECRET_KEY,
     dbType: process.env.DB_TYPE,
