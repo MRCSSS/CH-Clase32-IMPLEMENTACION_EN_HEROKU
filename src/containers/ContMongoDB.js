@@ -1,7 +1,8 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import mongoose from 'mongoose';
 import moment from 'moment';
-import config from '../utils/config.js';
+import { config } from '../utils/config.js';
+
 import {logger} from '../utils/config.js';
 
 await mongoose.connect(config.mongoURL);

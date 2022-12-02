@@ -1,5 +1,5 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
-import config from '../utils/config.js';
+import { config } from '../utils/config.js';
 
 /* -------------------- DECLARACIÓN DE VARIABLES -------------------- */
 let msgsDao;

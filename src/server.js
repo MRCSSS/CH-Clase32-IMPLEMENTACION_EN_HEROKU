@@ -14,8 +14,7 @@ import { msgsDao, productsDao, usersDao } from './daos/index.js';
 import register from './routes/register.routes.js';
 import randoms from './routes/randoms.routes.js';
 import info from './routes/info.routes.js';
-import { logger } from './utils/config.js';
-import config from './utils/config.js';
+import { config, logger } from './utils/config.js';
 
 /* ====================== INSTANCIA DE SERVER ======================= */
 const app = express();
