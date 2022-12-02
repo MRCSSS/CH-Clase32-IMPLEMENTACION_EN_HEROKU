@@ -1,7 +1,7 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import { promises as fs } from 'fs';
 import moment from 'moment';
-import {logger} from '../utils/logger.config.js';
+import {logger} from '../utils/config.js';
 // import * as dotenv from 'dotenv';
 
 /* ------------------------ CLASE CONTENEDOR ------------------------ */

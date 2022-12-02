@@ -2,7 +2,7 @@
 import express from 'express';
 import os from 'os';
 import compression from 'compression';
-import {logger} from '../utils/logger.config.js';
+import {logger} from '../utils/config.js';
 
 /* ====================== INSTANCIA DE ROUTER ======================= */
 const info = express.Router();

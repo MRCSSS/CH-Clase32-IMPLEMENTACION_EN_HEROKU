@@ -2,7 +2,7 @@
 import express from 'express';
 import cluster from 'cluster';
 import os from 'os';
-import {logger} from '../utils/logger.config.js';
+import {logger} from '../utils/config.js';
 
 /* ====================== INSTANCIA DE ROUTER ======================= */
 const randoms = express.Router();

@@ -2,7 +2,7 @@
 import express from 'express';
 import bcrypt from 'bcrypt';
 import { usersDao } from '../daos/index.js';
-import {logger} from '../utils/logger.config.js';
+import {logger} from '../utils/config.js';
 import info from './info.routes.js';
 
 /* ====================== INSTANCIA DE ROUTER ======================= */

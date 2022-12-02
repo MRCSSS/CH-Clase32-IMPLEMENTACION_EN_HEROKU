@@ -1,4 +1,4 @@
-import {logger} from './utils/logger.config.js';
+import {logger} from './utils/config.js';
 
 function getRandomNumbers(qty) {
     let rNumbs = [];
